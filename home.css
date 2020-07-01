@@ -38,6 +38,7 @@ body {
 	outline: 0;
 	font-size: 20px;
 	font-weight: bold;
+	color: #000;
 }
 
 .portfolio {
@@ -53,10 +54,30 @@ body {
 }
 
 .imagediv {
-	background-image: url("colorful-color-play-concentration-54101.jpg");
+	background-image: url("Untitled design.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
 	margin-top: 20px;
 	height: 94vh;
+	position: relative;
+}
+
+.headings {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.capturedh1 {
+	color: white;
+	font-family: 'Poiret One', cursive;
+	font-size: 30px;
+}
+
+.kph1 {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
 }
