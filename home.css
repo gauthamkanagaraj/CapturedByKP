@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.loading {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.loading h1 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Roboto', sans-serif;
+}
+
+.slash {
+	color: red;
+}
+
+.main {
+	display: none;
+}
+
+.topbar {
+	margin-top: 20px;
+} 
+
+.topbar button {
+	background-color: transparent;
+	border: none;
+	outline: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.portfolio {
+	position: absolute;
+	top: 20px;
+	left: 30px;
+}
+
+.menu {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+
+.imagediv {
+	background-image: url("colorful-color-play-concentration-54101.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	margin-top: 20px;
+	height: 94vh;
+}
