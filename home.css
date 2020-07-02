@@ -127,6 +127,8 @@ body {
 	padding-left 20px;
 	text-align: right;
 	margin-right: 20px;
+	outline: 0;
+	focus: 0;
 }
 
 .nav-home {
