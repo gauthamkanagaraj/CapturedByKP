@@ -41,6 +41,13 @@ body {
 	color: #000;
 }
 
+.close {
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	display: none;
+}
+
 .portfolio {
 	position: absolute;
 	top: 20px;
@@ -54,7 +61,7 @@ body {
 }
 
 .imagediv {
-	background-image: url("Untitled design.jpg");
+	background-image: url("Untitled design (1).png");
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
@@ -72,12 +79,69 @@ body {
 
 .capturedh1 {
 	color: white;
-	font-family: 'Poiret One', cursive;
-	font-size: 30px;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 20px;
+	width: 100%;
+	line-height: 2;
 }
 
 .kph1 {
 	color: white;
 	font-family: 'Roboto', sans-serif;
 	font-size: 60px;
+	margin-top: 0px;
+}
+
+.social {
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+	width: 100%;
+	transform: translateX(-50%);
+}
+
+.social button {
+	background-color: transparent;
+	color: white;
+	border: none;
+	outline: 0;
+	font-size: 24px;
+	margin-left: 24px;
+	margin-right: 24px;
+}
+
+.navigation {
+	margin-top: 20px;
+	width: 60%;
+	height: 94vh;
+	background-color: white;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	display: none;
+}
+
+.navigation h1 {
+	font-size: 24px;
+	font-family: "Roboto", sans-serif;
+	padding-left 20px;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.nav-home {
+	margin-top: 80px;
+}
+
+.nav-gallery {
+	margin-top: 40px;
+}
+
+.nav-about {
+	margin-top: 40px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
 }
