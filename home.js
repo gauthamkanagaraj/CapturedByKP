@@ -30,3 +30,11 @@ $(".nav-gallery").on("click", function () {
 $(".nav-about").on("click", function () {
 	window.location.replace("about.html");
 });
+
+$(".portfolio").on("click", function () {
+	window.location.replace("gallery.html");
+});
+
+$(".topbarbutton").on("click", function () {
+	window.location.replace("home.html");
+});
