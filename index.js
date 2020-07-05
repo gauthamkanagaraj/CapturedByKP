@@ -4,5 +4,5 @@ $(".div1next").on("click", function () {
 });
 
 $(".div2next").on("click", function () {
-	window.location.replace("home.html");
+	window.location.replace("home1.html");
 });
