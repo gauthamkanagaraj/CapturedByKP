@@ -20,7 +20,7 @@ $(".close").on("click", function () {
 });
 
 $(".nav-home").on("click", function () {
-	window.location.replace("home.html");
+	window.location.replace("home1.html");
 });
 
 $(".nav-gallery").on("click", function () {
@@ -36,5 +36,5 @@ $(".portfolio").on("click", function () {
 });
 
 $(".topbarbutton").on("click", function () {
-	window.location.replace("home.html");
+	window.location.replace("home1.html");
 });
